@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Setting up the file and adding a title to the tab.-->
     <meta charset="UTF-8">
     <meta name="description" content="Working to encourage individuals to stand up to human Trafficking.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,39 @@
     <title>Teens Against Trafficking</title>
     <link rel="stylesheet" href="./builtStyle.css">
 </head>
-<body>
-    <!--colors #8AB6F8 #0E437A #FFFFFF--> 
-    <div class="bg-dark-blue flex max-w-screen mx-auto pt-1 pb-1 justify-center">
-        <img class = "h-48 w-48" src="images/tatlogo.png" alt="Our Logo" >
-        <nav 
+
+<body>    
+    <!--Class for navbar.-->
+    <div class = "flex-col w-screen sm:rounded-md shadow-2xl h-auto bg-grey ">
+        <div class = "text-light-blue ml-auto text-xs font-bold font-lora space-x-6 h-auto flex justify-evenly items-center
+                        sm:text-sm md:text-xl lg:text-2xl xl:text-3xl">
+            <a href = "index.html"><h1>About Us</h1></a>
+            <a href = "board.html"><h1>Our Board</h1></a>
+            <div class = "flex w-fit h-8 sm:h-16 m:h-24 lg:h-32 xl:h-40 justify-center">
+                <img class = "h-8 w-8 sm:h-16 sm:w-16 m:h-24 m:w-24 lg:h-32 lg:w-32 xl:w-40 xl:h-40" src="images/tatlogo.png" alt="Our Logo" >
+            </div>
+            <a href = "volunteering.html"><h1>Sign Up For Volunteering</h1></a>
+            <a href = "contact.html"><h1>Contact Us</h1></a>            
+        </div> 
+    </div>
+    <!--Class for Mission statement and TaT logo.-->
+    <div class="m-3 z-10 rounded-lg bg-light-blue items-center flex-col flex justify-between">
+        <img class = "h-40 w-40 sm:h-56 sm:w-56 md:h-80 md:w-80" src="images/tatlogo.png" alt="Our Logo" >
+        <h2 class = "text-center text-grey z-10 font-lora font-bold text-xl sm:text-3xl md:text-5xl lg:text-7xl ">See the <em>Problem</em>, Stop the <em>Danger</em>, Change the <em>Cycle</em></h2>
+        
+        <div class = "sm:bg-dark-blue mt-3 flex flex-col sm:flex-row rounded-full justify-between items-center">
+            <p class ="bg-dark-blue rounded-full sm:bg-opacity-0 text-center text-orange z-10 font-lora font-bold text-lg sm:text-xl md:text-3xl lg:text-5xl">Every year {Insert Number} people are human trafficked.</p>
+            <img class = "h-36 w-52 sm:h-48 sm:w-60 md:w-max md:h-64 lg:w-max lg:h-80 rounded-full" src ="https://imgs.search.brave.com/smCA3-wXeh_yS4Qv248PeEXNt8lv3GWfWya56E0vn44/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9uZWJy/YXNrYWZhbWlseWFs/bGlhbmNlLm9yZy93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNi8w/MS9IdW1hblRyYWZm/aWNraW5nLWUxNDUz/MTM0NDcwOTcxLmpw/Zw">
+        </div>
+        <div class = "sm:bg-dark-blue flex flex-col sm:flex-row rounded-full justify-between items-center">
+            <img class = "h-36 w-52 sm:h-48 sm:w-60 md:w-max md:h-64 lg:w-max lg:h-80 rounded-full" src ="https://imgs.search.brave.com/smCA3-wXeh_yS4Qv248PeEXNt8lv3GWfWya56E0vn44/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9uZWJy/YXNrYWZhbWlseWFs/bGlhbmNlLm9yZy93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNi8w/MS9IdW1hblRyYWZm/aWNraW5nLWUxNDUz/MTM0NDcwOTcxLmpw/Zw">
+            <p class ="bg-dark-blue rounded-full sm:bg-opacity-0 text-center text-orange z-10 font-lora font-bold text-lg sm:text-xl md:text-3xl lg:text-5xl">In Nevada {Insert Number} % of more people are trafficked.</p>
+        </div>
+
+        <div class = "bg-black flex flex-col rounded-full my-36 justify-center">
+            <h2 class = "text-center text-9xl text-dark-blue">It stops <em>here.</em></h2>
+            <h2 class = "m-3 text-center text-7xl text-light-blue">Teens Against Trafficking strives to stop the cycle of abuse.</h2>
+        </div>
     </div>
 </body>
 </html>
