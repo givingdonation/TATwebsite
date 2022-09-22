@@ -14,7 +14,13 @@ module.exports = {
       'dark-blue': '#0E437A',
       'grey': '#FFFFFF',
       'orange': '#cd7a00',
-      'black': '#432800'
+      'black': '#de6a53',
+      'green': '#bebd3b',
+      'blueish': '#7879f2',
+      'light-green': '#8df49d',
+      'barely-red':'#f37f9f',
+      'link': '#0000EE',
+      'link-hovered': '#551A8B'
     },
     fontFamily: {
       lora: [ "lora", "sans-serif" ],
