@@ -20,7 +20,9 @@ module.exports = {
       'light-green': '#8df49d',
       'barely-red':'#f37f9f',
       'link': '#0000EE',
-      'link-hovered': '#551A8B'
+      'link-hovered': '#551A8B',
+      'red-orange': '#d67919',
+      'cyan': ' #9e7a51'
     },
     fontFamily: {
       lora: [ "lora", "sans-serif" ],
