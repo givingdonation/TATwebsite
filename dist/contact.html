@@ -12,7 +12,7 @@
 
 <body>
     <!--Class for navbar.-->
-    <div class = " flex-col sm:rounded-md shadow-2xl h-auto bg-grey ">
+    <div class = " flex-col sm:rounded-md shadow-2xl h-auto bg-grey">
         <div class = "text-light-blue text-xs font-bold font-lora h-auto flex justify-evenly items-center
                         sm:text-sm md:text-xl lg:text-2xl xl:text-3xl">
             <a href="index.html"><img class = "h-8 w-8 sm:hidden" src="images/tatlogo.png" alt="Our Logo" ></a> 
@@ -26,19 +26,24 @@
         </div> 
     </div>
 
-    <div class="m-3 z-10 rounded-lg bg-light-blue items-center flex-col flex justify-start" style="height: 80vh;">
+    <div class="m-3 z-10 rounded-lg bg-light-blue items-center flex-col flex justify-start">
         <div class="text-center text-grey z-10 font-lora font-bold text-xl sm:text-3xl md:text-5xl lg:text-7xl ">
             <h1>Want to Contact Us?</h1>
         </div>
         
         <div class="text-center text-grey z-10 font-lora font-bold text-xl sm:text-xl md:text-3xl lg:text-5xl my-10">
-            <p>Phone: <a class="text-dark-blue" href="tel:+1-800-000-0000">+1-800-000-0000</a></p>
-            <p>Email: <a class="text-dark-blue" href="mailto:contact@example.com">contact@example.com</a></p>
+            <p>Phone: +1-800-000-0000</p>
+            <a href="tel:+1-800-000-0000">
+                <button class="text-grey bg-dark-blue rounded-lg m-10 px-5 py-2">Call Us!</button>
+            </a>
+            <p>Email: contact@example.com</p>
+            <a class="text-dark-blue" href="mailto:contact@example.com">
+                <button class="text-grey bg-dark-blue rounded-lg m-10 px-5 py-2">Email Us!</button>
+            </a>
         </div>
 
-        <!--Sample form and footer, important that you change class of embedded form before production so it fits with the screen/divs-->
-        <!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTFe7XFNng-Dh75p7j5ceLJfYihhKd-XOEyg0b3vNTjuPiMw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" class="w-screen h-full">Loading…</iframe>-->
-        <footer>footer sample</footer>
+        <!--footer, doesnt contain anything-->
+        <footer></footer>
     </div>
 
 
