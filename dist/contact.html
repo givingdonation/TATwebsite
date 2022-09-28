@@ -11,21 +11,22 @@
 </head>
 
 <body>
-   <!--Class for navbar.-->
-    <div class = "flex-col w-screen sm:rounded-md shadow-2xl h-auto bg-grey">
-        <div class = "text-light-blue text-xs font-bold font-lora space-x-6 h-auto flex justify-evenly items-center
+    <!--Class for navbar.-->
+    <div class = " flex-col sm:rounded-md shadow-2xl h-auto bg-grey ">
+        <div class = "text-light-blue text-xs font-bold font-lora h-auto flex justify-evenly items-center
                         sm:text-sm md:text-xl lg:text-2xl xl:text-3xl">
-            <a href = "index.html"><h1>About Us</h1></a>
+            <a href="index.html"><img class = "h-8 w-8 sm:hidden" src="images/tatlogo.png" alt="Our Logo" ></a> 
+            <a class = "hidden sm:flex" href = "index.html"><h1>About Us</h1></a>
             <a href = "board.html"><h1>Our Board</h1></a>
             <div class = "hidden sm:flex sm: sm:h-16 m:h-24 lg:h-32 xl:h-40">
                 <img class = "sm:visible sm:h-16 sm:w-16 m:h-24 m:w-24 lg:h-32 lg:w-32 xl:w-40 xl:h-40" src="images/tatlogo.png" alt="Our Logo" >
             </div>
             <a href = "volunteering.html"><h1>Sign Up For Volunteering</h1></a>
-            <a href = "contact.html"><h1>Contact Us</h1></a>
+            <a href = "contact.html"><h1>Contact Us</h1></a>            
         </div> 
     </div>
 
-    <div class="m-3 z-10 rounded-lg bg-light-blue items-center flex-col flex justify-between h-screen">
+    <div class="m-3 z-10 rounded-lg bg-light-blue items-center flex-col flex justify-start" style="height: 80vh;">
         <div class="text-center text-grey z-10 font-lora font-bold text-xl sm:text-3xl md:text-5xl lg:text-7xl ">
             <h1>Want to Contact Us?</h1>
         </div>
@@ -36,7 +37,7 @@
         </div>
 
         <!--Sample form and footer, important that you change class of embedded form before production so it fits with the screen/divs-->
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTFe7XFNng-Dh75p7j5ceLJfYihhKd-XOEyg0b3vNTjuPiMw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" class="w-screen h-full">Loading…</iframe>
+        <!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTFe7XFNng-Dh75p7j5ceLJfYihhKd-XOEyg0b3vNTjuPiMw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" class="w-screen h-full">Loading…</iframe>-->
         <footer>footer sample</footer>
     </div>
 
